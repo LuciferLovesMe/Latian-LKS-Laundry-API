@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66ff27d6743f451090cbd54fbb5be89a" Name="Diagram1">
+        <EntityTypeShape EntityType="LaundryModel.category" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.customer" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.detail_package" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.detail_transaction" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.employee" Width="1.5" PointX="3.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.header_transaction" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.job" Width="1.5" PointX="1.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.package" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.service" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaundryModel.unit" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="LaundryModel.FK__service__estimat__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__header_tr__id_cu__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__detail_pa__id_pa__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__detail_pa__id_se__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__detail_tr__compl__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__detail_tr__id_he__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__detail_tr__id_pa__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__employee__id_job__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__header_tr__id_em__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="LaundryModel.FK__service__id_unit__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
